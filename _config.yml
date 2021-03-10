@@ -1,0 +1,36 @@
+url: 'https://chickensmitten.github.io'
+baseurl: '/serif'
+exclude: 'README.md'
+permalink: pretty
+title: 'Jekyll Serif'
+
+google-analytics-id: ""
+homepage:
+  show-call-box: true
+logo:
+  mobile: "images/logo/logo-mobile.svg"
+  desktop: "images/logo/logo.svg"
+  desktop-height: "36px"
+footer:
+  copyright-text: 'All Rights Reserved'
+
+seo:
+  meta-og-title: "Jekyll Serif Theme"
+  meta-og-type: "website"
+  meta-og-url: ""
+  meta-og-image: "https://raw.githubusercontent.com/zerostaticthemes/jekyll-serif-theme/master/screenshots/tn.png"
+  meta-og-description: "Jekyll Serif is a modern business theme for Hugo. It contains content types for the archetypical business website. The theme is fully responsive, blazing fast and artfully illustrated."
+  meta-twitter-card: "summary"
+  meta-twitter-site: ""
+  meta-twitter-creator: ""
+
+collections:
+  services:
+    output: true
+  team:
+    output: true
+
+sass:
+  indentWidth: 4
+  style: compact # possible values: nested expanded compact compressed
+  precision: 10
